@@ -1,0 +1,62 @@
+header {
+	width:100%; 
+	overflow:hidden;
+	background:#3EA8ED;
+}
+
+header .nombre {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+header .logo {
+	margin: 100px;
+	float:right;
+}
+
+.boton-atras{
+
+	background-color: azure;
+	width: 100%;
+	height: 70px;
+	font-size: medium;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+
+.boton-delante{
+
+	background-color: azure;
+	width: 100%;
+	height: 70px;
+	font-size: medium;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+
+.contenedor-flex {
+	display: flex; /* Utiliza flexbox */
+	align-items: center; /* Alinea verticalmente */
+  }
+
+img {
+	margin-right: 20px;
+}
+
+.texto {
+	flex: 1; /* Permite que el texto ocupe el espacio restante */
+	/* Puedes agregar estilos adicionales según necesites */
+  }
+
+footer {
+	width:100%; 
+	overflow:hidden;
+	background:#3EA8ED;
+}
+
+footer .texto{
+
+	text-align: center;
+}
